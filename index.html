@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Day 3</title>
+    <style>
+        form {
+            width: 20%;
+            border: 2px solid red;
+        }
+        form h1 {
+            display: inline;
+        }
+        table {
+            border: 2px solid greenyellow;           
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Q.1 write a code to insert an image?</h1>
+        <div class="Ans1">
+            <img src="./prepbyte logo.png" alt="image">
+        </div>
+        <h1>Q.2 create a form containing input fields like name,age,email, and contact?</h1>
+        <div class="Ans2">
+            <form action="">
+                <label for="name">
+                    <h1>Name:</h1>
+                    <input type="text" placeholder="enter your name">
+                </label><br>
+                <label for="age">
+                    <h1>Age:</h1>
+                    <input type="number" placeholder="enter your age">
+                </label><br>
+                <label for="email">
+                    <h1>Email:</h1>
+                    <input type="email" placeholder="enter your email">
+                </label><br>
+                <label for="contact">
+                    <h1>Contact:</h1>
+                    <input type="number" placeholder="enter your contact no.">
+                </label>
+            </form>
+        </div>
+        <h1>Q.3 create a table and explain how to achieve colspan?</h1>
+        <div class="Ans3">
+            <table border="1px" cellpadding="5px" 
+            cellspacing="0px">
+                <tr>
+                    <th></th><th>monday</th><th>tuesday</th><th>wednesday</th>
+                </tr>
+                <tr>
+                    <th>period 1</th><td>english</td><td>maths</td><td>hindi</td>
+                </tr>
+                <tr>
+                    <th>period 2</th><td colspan="2">science</td><td>games</td>
+                </tr>
+            </table>
+        </div>
+        <h1>Q.4 create the radio button(MERN,MEAN:course and checkbox(HTML,CSS,REACT,NODE technology) and explain the difference between these two?</h1>
+        <h3>'Checkbox' and 'Radio button' both the form options facilitates the user to make selection among the given options. <br>The difference between the two is, checkbox allows the user to choose any no. of options from the given list. whereas, radio button allows user to choose only one of option from the list.</h3>
+        <div class="Ans4">
+            <h3>COURSE:</h3>
+           <input type="radio" name="course" value="mern">MERN <br>
+           <input type="radio" name="course" value="mean">MEAN
+           <h3>TECHNOLOGY:</h3>
+            
+           <input type="checkbox" name="technology" value="react">REACT <br>
+           <input type="checkbox" name="technology" value="html">HTML <br>
+           <input type="checkbox" name="technology" value="css">CSS <br>
+           <input type="checkbox" name="technology" value="node">NODE 
+        </div>        
+    </div>
+</body>
+</html>
